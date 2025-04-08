@@ -22,19 +22,19 @@
   </head>
   <body>
     <!-- Headear -->
-    <header>
-      <div>
-        <img src="./images/astro.ico" alt="Logo" />
-        <h1><a href="#">Dana</a></h1>
+    <header class="header">
+      <div class="headear__logo">
+        <img class="header__logo__img" src="./images/astro.ico" alt="Logo" />
+        <h1 class="header__logo__title"><a href="#">Dana</a></h1>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#home">홈으로</a></li>
-          <li><a href="#about">Dana</a></li>
-          <li><a href="#skill">기술</a></li>
-          <li><a href="#work">포트폴리오</a></li>
-          <li><a href="#license">자격증</a></li>
-          <li><a href="#contact">연락처</a></li>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a href="#home" class="header__menu__item active">홈으로</a></li>
+          <li><a href="#about" class="header__menu__item">Dana</a></li>
+          <li><a href="#skill" class="header__menu__item">기술</a></li>
+          <li><a href="#work" class="header__menu__item">포트폴리오</a></li>
+          <li><a href="#license" class="header__menu__item">자격증</a></li>
+          <li><a href="#contact" class="header__menu__item">연락처</a></li>
         </ul>
       </nav>
     </header>
@@ -44,18 +44,19 @@
     <main>
       <!-- Home 시작 -->
       <section id="home">
-        <img src="./images/astro.png" alt="Dana's profile" />
-        <h2>안녕하세요. 단하입니다.</h2>
-        <p>최고가 되고싶은 AI 개발자 연습생 단하입니다!</p>
-        <a href="#contact">연락처</a>
+        <img class="home__avatar" src="./images/astro.png" alt="Dana's profile" />
+        <h2 class="home__title">안녕하세요<br>
+             <strong class=".home__title--string">단하</strong>입니다</h2>
+        <p class="home__description">최고가 되고싶은 AI 개발자 연습생 입니다!</p>
+        <a class="home__contact" href="#contact">연락처</a>
       </section>
 
       <!-- Home 끝 -->
 
       <!-- About 시작 -->
-      <section id="about">
-        <h2>단하</h2>
-        <p>
+      <section id="about" class="section max-container">
+        <h2 class="title">단하</h2>
+        <p class="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat in
           rerum odio iusto delectus veniam at doloremque vitae quas accusamus
           voluptatem nam, explicabo facilis asperiores aliquid, laboriosam culpa
@@ -64,37 +65,37 @@
           dolore nesciunt dolores blanditiis suscipit facilis, repellat mollitia
           quae accusamus qui ipsam hic. Omnis!
         </p>
-        <ul>
-            <li>
-                <i class="fa-brands fa-html5"></i>
-                <p>Front-end</p>
+        <ul class="skills">
+            <li class="skill">
+                <i class="fa-brands fa-html5 skill__icon"></i>
+                <p class="skill__title">Front-end</p>
                 <p>HTML, CSS, JavaScript, Node.js, React</p>
             </li>
-            <li>
-                <i class="fa-brands fa-mobile"></i>
-                <p>Mobile</p>
+            <li class="skill">
+                <i class="fa-brands fa-mobile skill__icon"></i>
+                <p class="skill__title">Mobile</p>
                 <p>Android, IOS, Kotlin, React-Native</p>
             </li>
-            <li>
-                <i class="fa-brands fa-html5"></i>
-                <p>AI</p>
+            <li class="skill">
+                <i class="fa-brands fa-html5 skill__icon"></i>
+                <p class="skill__title">AI</p>
                 <p>Tensorflow, Python, Pytorch, Numpy</p>
             </li>
         </ul>
 
-        <ul>
-            <li>
-                <img src="./images/kia.avif" alt="kia Logo">
+        <ul class="jobs">
+            <li class="job">
+                <img class="job__img" src="./images/kia.avif" alt="kia Logo">
                 <div>
-                    <p>kia</p>
-                    <p>2030~</p>
+                    <p class="job__name">kia</p>
+                    <p class="job__period">2030~</p>
                 </div>
             </li>
-            <li>
-                <img src="./images/hyundai.png" alt="hyundai Logo">
+            <li class="job">
+                <img class="job__img" src="./images/hyundai.png" alt="hyundai Logo">
                 <div>
-                    <p>Hyundai</p>
-                    <p>2040~</p>
+                    <p class="job__name">Hyundai</p>
+                    <p class="job__period">2040~</p>
                 </div>
             </li>
             </li>
