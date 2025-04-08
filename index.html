@@ -104,39 +104,42 @@
       <!-- About 끝 -->
 
       <!-- skills 시작 -->
-      <section id="skills">
-        <h2>기술</h2>
-        <p>언어 및 도구</p>
+      <section id="skills" class="section">
+        <div class="max-container">
+        <h2 class="title">기술</h2>
+        <p class="description">언어 및 도구</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur nostrum ex iure officia quisquam quaerat maiores impedit, voluptatibus similique dignissimos numquam libero molestias fugiat labore quidem nam earum, nemo provident.</p>
-        <div>
-            <section>
-                <h2>언어</h2>
+        <div class="tools">
+            <section class="tools__coding">
+                <h2 class="tools__title">언어</h2>
                     <ul>
-                        <li>
-                <div><span>HTML</span><span>100%</span></div>
-                <div><div style="width: 100%"></div></div>
+                        <li class="bar">
+                <div class="bar__metadata">
+                    <span>HTML</span><span>100%</span>
+                </div>
+                <div class="bar__bg">
+                    <div class="bar__value" style="width: 100%"></div></div>
+                        </li>
+                        <li class="bar">
+                <div class="bar__metadata"><span>css</span><span>90%</span></div>
+                <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
             </li>
-            <li>
-                <div><span>css</span><span>90%</span></div>
-                <div><div style="width: 90%"></div></div>
+            <li class="bar">
+                <div class="bar__metadata"><span>JavaScript</span><span>80%</span></div>
+                <div class="bar__bg"><div class="bar__value" style="width: 80%"></div></div>
             </li>
-            <li>
-                <div><span>JavaScript</span><span>80%</span></div>
-                <div><div style="width: 80%"></div></div>
+            <li class="bar">
+                <div class="bar__metadata"><span>Java</span><span>70%</span></div>
+                <div class="bar__bg"><div class="bar__value" style="width: 70%"></div></div>
             </li>
-            <li>
-                <div><span>Java</span><span>70%</span></div>
-                <div><div style="width: 70%"></div></div>
-            </li>
-            <li>
-                <div><span>Python</span><span>90%</span></div>
-                <div><div style="width: 90%"></div></div>
+            <li class="bar">
+                <div class="bar__metadata"><span>Python</span><span>90%</span></div>
+                <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
             </li>
         </ul>
     </section>
-
-    <section>
-        <h3>도구</h3>
+    <section class="tools__tools">
+        <h3 class="tools__title">도구</h3>
         <ul>
             <li>
                 <li>Visual Studio Code</li>
@@ -147,15 +150,15 @@
             </li>
     </ul>
     </section>
-<section>
-    <h3>기타</h3>
-    <ul>
-        <li>Git</li>
-        <li>Slack</li>
-        <li>Math</li>
-    </ul>
-</section>
-
+    <section>
+        <h3>기타</h3>
+        <ul>
+            <li>Git</li>
+            <li>Slack</li>
+            <li>Math</li>
+        </ul>
+    </section>
+</div>
 </div>
 </section>
 <!-- skills 끝 -->
@@ -279,7 +282,7 @@
         </li>
 </ul>
     
- </section>
+    </section>
  <!-- license 끝 -->
 <!-- Arrow up 시작 -->
  <aside>
